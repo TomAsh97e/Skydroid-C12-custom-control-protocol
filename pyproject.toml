@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skydroid-c12"
+version = "0.1.0"
+description = "Unofficial Python SDK for the Skydroid C12 UDP control protocol"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "TomAsh97e"}]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/TomAsh97e/Skydroid-C12-custom-control-protocol"
+Issues = "https://github.com/TomAsh97e/Skydroid-C12-custom-control-protocol/issues"
+
+[tool.setuptools.package-data]
+skydroid_c12 = ["py.typed"]
